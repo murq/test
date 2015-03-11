@@ -1,6 +1,9 @@
 #include <stdio.h>
 
+void welcome(){
+	printf("Hello, world!\n");	
+}
 int main(){
-	printf("Hello, world!\n");
-	return 0;
+	welcome();
+	return 42;
 }
